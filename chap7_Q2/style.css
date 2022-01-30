@@ -1,0 +1,20 @@
+/* cssリセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  /* 幅300px */
+  width: 300px;
+  /* 高さ300px */
+  height: 300px;
+  /* 枠線=ボーダー（太さ=2px, 種類=ソリッド, 色=#fa5893） */
+  border: 2px solid #fa5893;
+}
+
+/* "地点"だけ囲ったspan要素の文字色を変える */
+span {
+  color: #fa5893;
+}
