@@ -1,0 +1,27 @@
+.boxes {
+  width: 600px;
+  margin: 0 auto;
+  background-color: yellow;
+  /* flexの使用 */
+  display: flex;
+  /* 横並びと中央寄せ */
+  justify-content: center;
+}
+
+.box1 {
+  width: 150px;
+  height: 400px;
+  background-color: orange;
+}
+
+.box2 {
+  width: 250px;
+  height: 400px;
+  background-color: red;
+}
+
+.box3 {
+  width: 30px;
+  height: 400px;
+  background-color: rgb(255, 217, 214);
+}
