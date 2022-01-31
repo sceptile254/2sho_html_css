@@ -1,0 +1,52 @@
+/* cssのリセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.service {
+  padding: 20px 20px;
+  font-family: serif;
+  font-size: 30px;
+  color: #8f8f8f;
+}
+
+.gazo {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* main箱（ロゴとか紹介文が入ってる）のマージン50pxの、横幅840px */
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+/* logo1の、下側に余白30pxをあけ、ソリッド下線を伸ばす */
+.logo1 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.logo2 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.logo3 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.logo4 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
