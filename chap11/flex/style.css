@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  background-color: #00c7ce;
+  height: 50vh;
+  padding:10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex > :first-child {
+  margin-right: auto;
+}
+
+.flex > div {
+  background-color: #fff;
+  margin: 10px;
+  font-size: 70px;
+}

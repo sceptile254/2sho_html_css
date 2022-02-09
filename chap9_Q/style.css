@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fab {
+  font-size: 32px;
+}
+
+.position {
+  position: absolute;
+  /* トップから100px  */
+  top: 100px;
+  /* 右から40px */
+  right: 40px;
+}

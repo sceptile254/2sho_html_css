@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f06bb4;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: flex-end;
+}
+
+header > .pink:first-child {
+  margin-right: auto;
+}
+
+.pink {
+  height: 70px;
+  margin: 0 10px;
+  flex-basis: 140px;
+  background-color: rgb(240, 198, 212);
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(23, 125, 221);
+}
+
+.blue {
+  width: 45%;
+  margin: 10px;
+  height: 40px;
+  max-width: 600px;
+  background-color: rgb(177, 211, 243);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.kimidori {
+  width: 300px;
+  background-color: #c4f3ae;
+}
+
+.midori {
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  background-color: green;
+  padding: 20px;
+}
+
+.ki {
+  height: 130px;
+  flex-basis: 200px;
+  margin: 10px;
+  background-color: yellow;
+}
